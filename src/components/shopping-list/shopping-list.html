@@ -1,0 +1,6 @@
+<ion-list>
+    <ion-item *ngFor="let shoppingItem of shopListRef$ | async" (click)="selectShoppingItem(shoppingItem)">
+        <h2>Item name : {{ shoppingItem.payload.val().itemName }}</h2>
+        <h3>Amount : {{ shoppingItem.payload.val().itemNumber }}</h3>
+    </ion-item>
+</ion-list>

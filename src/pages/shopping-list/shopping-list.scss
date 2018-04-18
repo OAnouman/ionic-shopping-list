@@ -1,0 +1,7 @@
+page-shopping-list {}
+
+.toastDanger {
+    div {
+        background-color: map-get($colors, danger);
+    }
+}

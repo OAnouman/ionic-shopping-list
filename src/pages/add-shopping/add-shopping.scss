@@ -1,0 +1,7 @@
+page-add-shopping {}
+
+.toastSuccess {
+    div {
+        background-color: map-get($colors, secondary);
+    }
+}
