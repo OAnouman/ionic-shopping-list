@@ -4,7 +4,7 @@ import { ActionSheetController, NavController, NavParams, ToastController } from
 
 import { AngularFireList, AngularFireDatabase, AngularFireAction, SnapshotAction, DatabaseSnapshot } from 'angularfire2/database';
 
-import { Observable } from 'rxjs/observable';
+import { Observable } from 'rxjs/Observable';
 
 import { ShoppingItem } from '../../models/shopping-item/shopping.item.interface';
 
